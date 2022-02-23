@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    height: 400px;
+    border: 2px;
+}
+
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50px, -50px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:  0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline;
+    text-align: center;
+}
+
+li a:hover {
+    text-decoration: underline;
+  }
+
+li a:link{
+    text-decoration: none;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#input1 {
+    background-color: white;
+    border-radius: 12px;
+    border-color: lightgray;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 270px;
+    height: 35px;
+}
+
+#input1:focus {
+    outline: none !important;
+    border:1px solid #4285F4;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#input2 {
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: 47%;
+    transform: translate(-50px, -50px);
+}
+
+#input3 {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 115%;
+    left: 38%;
+    transform: translate(-50px, -50px);
+}
+
+.col25 {
+    float: left;
+    width: -190%;
+    margin-top: 6px;
+}
+
+.col75 {
+    float: right;
+    width: 55%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
